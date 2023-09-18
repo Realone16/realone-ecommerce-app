@@ -16,12 +16,14 @@ How We Use Classes, Switch Statements, and Try-Catch-Finally:
 •	We have defined a JavaScript class called EcommerceStore to encapsulate the website's core functionality.
 
 •	In the constructor, we initialize the shopping cart (this.cart) as an empty array and the product data (this.products) as an object containing various product details. Each product is represented as an object with properties like name, price, description, and image.
-3. Switch Statements (addToCart Method):
+
+2. Switch Statements (addToCart Method):
 
 •	To determine the price of a selected product, we use a switch statement within the addToCart method.
 
 •	When a user adds a product to the cart, this switch statement identifies the selected product and assigns its corresponding price to the price variable. This ensures that the correct price is associated with each product.
-4. Try-Catch-Finally Statements (addToCart and placeOrder Methods):
+
+3. Try-Catch-Finally Statements (addToCart and placeOrder Methods):
 
 •	We have implemented try-catch-finally statements to handle potential errors and provide a robust user experience.
 
