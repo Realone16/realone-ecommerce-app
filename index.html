@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>E-commerce Store</title>
+</head>
+<body>
+    <div class="ecommerce-store">
+        <h1>Realone's Furnitures E-commerce Store</h1>
+        <div class="product-container">
+            <select id="productSelect" onchange="updateProductDetails()">
+                <option value="item1">Cushion - $10</option>
+                <option value="item2">Chair - $15</option>
+                <option value="item3">Shelves - $20</option>
+                <option value="item4">Bed - $35</option>
+                <option value="item5">Sofa - $25</option>
+                <option value="item6">Table - $30</option>
+            </select>
+            <input type="number" id="quantityInput" placeholder="Quantity" min="1">
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-details">
+            <h2>Product Details</h2>
+            <img src="" alt="Product Image" id="productImage">
+            <p id="productDescription">Select a product to view details.</p>
+        </div>
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p id="totalPrice">Total: $0</p>
+            <button onclick="placeOrder()">Place Order</button>
+        </div>
+        <p id="error" class="error"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
