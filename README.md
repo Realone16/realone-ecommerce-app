@@ -1,12 +1,16 @@
 Step-by-Step Instructions in using Realone’s Furniture E-commerce Website
 1. Exploring Products:
 Upon landing on Realone’s Furniture website, you'll find an array of products displayed. To view product details and make a purchase, simply choose a product from the dropdown menu. You'll notice that as you switch between products, the product image and description will dynamically update.
+
 2. Adding Products to Your Cart:
 After selecting your desired product, specify the quantity you wish to purchase in the input field. Then, click the "Add to Cart" button. Behind the scenes, our website utilizes a class-based approach to efficiently manage your shopping cart.
+
 3. Reviewing Your Cart:
 Your selected items will appear in the "Shopping Cart" section, complete with quantities and prices. The total cost is calculated automatically using switch statements to determine the price of each product. This ensures accurate pricing for your selections.
+
 4. Placing Your Order:
 When you're ready to proceed, simply click the "Place Order" button. At this point, try-catch-finally statements come into play, providing robust error handling throughout the order process. Any potential issues are gracefully caught and managed.
+
 5. Completing Your Purchase:
 Following a brief processing period, a confirmation message will appear, indicating that your order has been successfully placed. You can shop with confidence, knowing that our website is designed for a seamless experience.
 
